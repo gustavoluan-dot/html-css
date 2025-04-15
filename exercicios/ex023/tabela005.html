@@ -25,14 +25,15 @@
             padding: 8px;
         }
 
-        .cnome {
+        .cgrupo {
             background-color: greenyellow;
         }
+        .cidade {
+            background-color: rgba(149, 149, 238, 0.555);
+            
+        } 
 
-        .csexo, .cidade {
-            background-color: yellow;
-        }
-
+         
     </style>
 </head>
 <body>
@@ -40,11 +41,10 @@
 
     <table>
         <colgroup>
-            <col class="cnome">
-            <col class="csexo">
-            <col class="cidade">
-            <col class="cprof">
-         </colgroup>
+
+           <col class="cgrupo" span="2">
+           <col class="cidade" span="2">
+         </colgroup> 
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
