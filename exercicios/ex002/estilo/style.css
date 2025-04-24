@@ -1,0 +1,27 @@
+@charset "UTF-8";   
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+
+    background-color: red;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header > h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main {
+    color: white;
+}
